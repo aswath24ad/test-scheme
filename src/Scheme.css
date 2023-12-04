@@ -1,0 +1,64 @@
+/* Scheme.css */
+
+.scheme-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url("https://indbiz.gov.in/wp-content/uploads/2020/08/New_schemes_to-boost_mobile_-electronics_manufacturing.jpg") center/cover no-repeat;
+    min-height: 100vh;
+    align-items: center;
+    color: #fff; /* Set text color to white or a suitable contrast */
+  }
+  
+  .content-block {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px; /* Add rounded corners for a more attractive look */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add smooth transition effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for a lifted effect */
+  }
+  
+  .content-block:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase the box shadow on hover */
+  }
+  
+  .content-block h2 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .content-block div {
+    max-height: 120px;
+    overflow-y: auto;
+  }
+  
+  .content-block p {
+    margin: 0;
+    color: #555;
+  }
+  
+  /* Optional: Add a subtle box shadow for a lift effect */
+  .content-block:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 80%;
+    height: 10px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+    transform: translateX(-50%);
+  }
+  .block-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }

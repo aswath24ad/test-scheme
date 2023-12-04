@@ -1,0 +1,28 @@
+/* Home.css */
+.content-block {
+    box-sizing: border-box;
+    width: 200px;
+    height: 80pxx; /* Reduce the height as needed */
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .content-block h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .content-block div {
+    max-height: 90px; /* Adjust the max height of the content */
+    overflow-y: auto;
+  }
+  
+  .content-block p {
+    margin: 0;
+    color: #777;
+  }
+  /* Home.css */

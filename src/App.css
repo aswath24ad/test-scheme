@@ -1,0 +1,216 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+}
+
+header {
+  background-color:#ff9100d5 ;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+
+
+  display: flex;
+  justify-content: center;
+
+
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: transparent; /* Set background color to transparent */
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+}
+
+.login-btn input {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.login-btn a {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-btn a:hover {
+  background-color: #555;
+}
+
+main {
+  padding: 20px;
+}
+/* App.css */
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content-block {
+  box-sizing: border-box;
+  width: 200px;
+  height: 300px;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center; /* Align text to center */
+  overflow: hidden;
+}
+
+.content-block h2 {
+  font-weight: bold;
+  color: #333; /* Change color of the title */
+}
+
+.content-block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content-block li {
+  margin-bottom: 8px;
+  color: #555; /* Change color of list items */
+}
+
+.content-block p {
+  margin: 0;
+  color: #777; /* Change color of paragraph text */
+}
+/* App.css */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Set a background color for the page */
+}
+
+.indian-flag {
+  animation: fadeInOut 7s ease-in-out; /* Set the animation duration and easing */
+}
+
+.flag-image {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain the aspect ratio of the image */
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  25% {
+    opacity: 1; /* Fade in for the first 25% of the animation */
+  }
+  75% {
+    opacity: 1; /* Maintain opacity for the next 50% of the animation */
+  }
+  100% {
+    opacity: 0; /* Fade out for the last 25% of the animation */
+  }
+}
+
+.logo {
+  width: 100px; /* Adjust the width to your preference */
+  height: auto; /* Maintain aspect ratio */
+}
+/* Add this to your App.css or create a new CSS file for your footer styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0; /* Adjust the padding to reduce the height */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  flex: 1;
+}
+
+.footer-links a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.footer-info p {
+  margin-bottom: 12px;
+}
+
+.footer-disclaimer {
+  margin-top: 10px; /* Adjust the margin to reduce the space at the top */
+}
+
+/* Adjust these styles based on your design preferences */
+/* Add this to your existing CSS file */
+.additional-logo {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  /* Add more styles as needed */
+}
+
+/* Add this style for the additional logo in the top left corner */
+.first-logo {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  left: 10px; /* Adjust the left position as needed */
+}
